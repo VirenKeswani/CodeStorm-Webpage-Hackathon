@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #1a1814;
+  background: #000000;
 }
 
 #preloader:before {
@@ -48,8 +48,8 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
+  border-top-color: #ff0000;
+  border-bottom-color: #ff0000;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -165,7 +165,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
 }
 #header.header-scrolled {
   top: 0;
@@ -423,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 53px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -435,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
-  font-size: 22px;
+  font-size: 30px;
 }
 #hero .btns {
   margin-top: 30px;
@@ -729,8 +728,9 @@ section {
   bottom: 10px;
 }
 .about .content h3 {
-  font-weight: 600;
-  font-size: 26px;
+  font-weight: 800;
+  font-size: 35px;
+  color: #b11c1c;
 }
 .about .content ul {
   list-style: none;
@@ -963,8 +963,8 @@ section {
 }
 .events .event-item h3 {
   font-weight: 600;
-  font-size: 26px;
-  color: #b11c1c;
+  font-size: 30px;
+  color: #ffffff;
 }
 .events .event-item .price {
   font-size: 26px;
@@ -1468,13 +1468,13 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: rgb(255, 0, 0);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #b11c1c;
+  color: #000000;
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -1482,7 +1482,7 @@ section {
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
-  border: 1px solid #454035;
+  border: 1px solid #ffffff;
 }
 #footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
@@ -1501,7 +1501,7 @@ section {
   font-size: 16px;
   padding: 0 20px 2px 20px;
   background: #b11c1c;
-  color: #fff;
+  color: rgb(255, 0, 0);
   transition: 0.3s;
   border-radius: 50px;
 }
@@ -1517,4 +1517,11 @@ section {
   text-align: center;
   font-size: 13px;
   color: #b11c1c;
+}
+.class-hover:hover
+{
+  color: red;
+}
+.copyright-names{
+  color: white;
 }
