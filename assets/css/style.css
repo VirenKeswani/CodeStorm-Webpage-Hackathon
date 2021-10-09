@@ -399,14 +399,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/about-bg-test-1.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color: #cda45e;
+  color: #f32c2c;
 }
 #hero h2 {
   color: #eee;
@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  display: inline-block;
+  display:none;
   padding: 12px 30px;
   border-radius: 50px;
   transition: 0.3s;
@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 94px;
   background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
   border-radius: 50%;
-  display: block;
+  display: none;
   position: relative;
   overflow: hidden;
 }
@@ -593,8 +593,8 @@ section {
   padding-bottom: 40px;
 }
 .section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 800;
   padding: 0;
   line-height: 1px;
   margin: 0 0 5px 0;
@@ -614,7 +614,7 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
   color: #cda45e;
@@ -670,7 +670,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("../img/hero-bg.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -756,6 +756,9 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+#why-us{
+  display: none;
+}
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -763,7 +766,7 @@ section {
   background: #1a1814;
 }
 .why-us .box span {
-  display: block;
+  display: none;
   font-size: 28px;
   font-weight: 700;
   color: #cda45e;
@@ -793,6 +796,10 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
+#menu{
+  display: none;
+  /*remove if u want*/
+}
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -802,7 +809,7 @@ section {
 }
 .menu #menu-flters li {
   cursor: pointer;
-  display: inline-block;
+  display: none;
   padding: 8px 12px 10px 12px;
   font-size: 16px;
   font-weight: 500;
@@ -915,6 +922,7 @@ section {
 }
 .specials .details p {
   color: #aaaaaa;
+  
 }
 .specials .details p:last-child {
   margin-bottom: 0;
@@ -1007,6 +1015,10 @@ section {
 /*--------------------------------------------------------------
 # Book A Table
 --------------------------------------------------------------*/
+#book-a-table
+{
+  display: none;
+}
 .book-a-table .php-email-form {
   width: 100%;
 }
@@ -1254,6 +1266,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact{
+  display: none;
+}
 .contact .info {
   width: 100%;
 }
