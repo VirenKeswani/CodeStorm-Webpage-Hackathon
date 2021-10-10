@@ -1182,10 +1182,12 @@ section {
 --------------------------------------------------------------*/
 .gallery .gallery-item {
   overflow: hidden;
-  
+  margin: 10px;
   aspect-ratio: 4 / 3;
-  border-right: 5px solid #422525b6;
-  border-bottom: 5px solid #422525b6;
+  border: 5px solid #b602023f;
+  border-radius: 5px;
+  
+
 }
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
