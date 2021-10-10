@@ -585,7 +585,8 @@ section {
 }
 
 .section-bg {
-  background-color: #1a1814;
+  background-color: #3b181d1e;
+  
 }
 
 .section-title {
@@ -730,7 +731,7 @@ section {
 .about .content h3 {
   font-weight: 800;
   font-size: 35px;
-  color: #b11c1c;
+  color: #dd0d0d;
 }
 .about .content ul {
   list-style: none;
@@ -744,7 +745,12 @@ section {
   padding-right: 4px;
   color: #b11c1c;
 }
+.about p{
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
 .about .content p:last-child {
+
   margin-bottom: 0;
 }
 @media (min-width: 1024px) {
@@ -944,7 +950,7 @@ section {
   bottom: 0;
 }
 .events .section-title h2 {
-  color: #fff;
+  color: #aaaaaa;
 }
 .events .container {
   position: relative;
