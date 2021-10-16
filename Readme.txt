@@ -1,2 +1,2 @@
-Darshan , pat and harsh ready nahi hai abtak please check in later
+Project completed on 16-10-2021.
 https://virenkeswani.github.io/website_trial/index.html
